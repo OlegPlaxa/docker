@@ -1,0 +1,4 @@
+FROM centos:centos6.8
+RUN yum install epel-release -y \
+    && mkdir /download
+VOLUME ["/download"]
